@@ -141,13 +141,13 @@
 }
 
 .footer-col-2 {
-  width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-  width:         calc(20% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+  width:         calc(30% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-  width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-  width:         calc(45% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+  width:         calc(35% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
@@ -208,7 +208,31 @@
   @include relative-font-size(1.5);
 }
 
+/**
+Main Page Hero
+**/
+.main-hero-col-wrapper {
+  @include relative-font-size(0.9375);
+  color: $grey-color;
+  margin-left: -$spacing-unit / 2;
+  @extend %clearfix;
+}
 
+.main-hero-col {
+  float: left;
+  margin-bottom: $spacing-unit / 2;
+  padding-left: $spacing-unit / 2;
+}
+
+.main-hero-col-1 {
+  width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+  width:         calc(35% - (#{$spacing-unit} / 2));
+}
+
+.main-hero-col-2 {
+  width: -webkit-calc(65% - (#{$spacing-unit} / 2));
+  width:         calc(65% - (#{$spacing-unit} / 2));
+}
 
 /**
  * Posts
@@ -254,3 +278,35 @@
     }
   }
 }
+
+/** 
+Mailchimp Styling
+**/
+#mc_embed_signup{
+  background:#fff;
+  clear:left;
+  color: black;
+}
+
+#mc_embed_signup form{
+  padding: 0 !important;
+  
+}
+
+#mc_embed_signup .button {
+  background-color: black !important;
+  font-family: 'Merriweather', sans-serif;
+}
+
+#mc_embed_signup input.email {
+  min-width: 90% !important;
+  font-family: 'Merriweather', sans-serif !important;
+}
+
+#mc_embed_signup label {
+  font-family: 'Oswald', sans-serif !important;
+}
+
+
+
+
