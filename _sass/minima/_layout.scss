@@ -213,7 +213,6 @@ Main Page Hero
 **/
 .main-hero-col-wrapper {
   @include relative-font-size(0.9375);
-  color: $grey-color;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
@@ -221,17 +220,18 @@ Main Page Hero
 .main-hero-col {
   float: left;
   margin-bottom: $spacing-unit / 2;
-  padding-left: $spacing-unit / 2;
+  /* padding-left: $spacing-unit / 2; */
 }
 
 .main-hero-col-1 {
-  width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-  width:         calc(35% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+  width:         calc(30% - (#{$spacing-unit} / 2));
 }
 
 .main-hero-col-2 {
   width: -webkit-calc(65% - (#{$spacing-unit} / 2));
   width:         calc(65% - (#{$spacing-unit} / 2));
+  margin-left: 5%;
 }
 
 /**

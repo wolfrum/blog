@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+J. Allen Wolfrum is a fiction author and former Marine. During Operation Iraqi Freedom he led an infantry squad on missions ranging from the oil fields of Southern Iraq to the streets of Baghdad.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+After the Marine Corps, he explored life from many perspectives: press operator in a plastics factory, warehouse stocker, confused college student, Certified Public Accountant, even more confused graduate student, management consultant and data scientist.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+J. Allen Wolfrum lives in San Diego, California, where he writes Western genre fiction and a travel blog.
