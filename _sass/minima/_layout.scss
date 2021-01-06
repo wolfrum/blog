@@ -296,6 +296,7 @@ Mailchimp Styling
 #mc_embed_signup .button {
   background-color: black !important;
   font-family: 'Merriweather', sans-serif;
+  min-width: 90% !important;
 }
 
 #mc_embed_signup input.email {
