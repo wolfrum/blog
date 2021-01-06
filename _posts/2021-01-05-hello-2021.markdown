@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Hello 2021!"
+date:   2021-01-05 14:10:16 -0800
+slug: hello-2021
+image: 2021_January.jpg
+categories: typewriters poetry
+---
+## Bring on the Typewriters & Poetry!!
+
+I've only got one promise for 2021 ... consistent effort.
+
+Who writes poetry anyway? Maybe I do?
+
+This year has already started off weird, I'll do my best to keep it that way.
+
+Stay tuned!

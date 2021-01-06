@@ -33,8 +33,8 @@ plugins:
   - jekyll-feed
 
 header_pages:
-  - books.markdown
   - blog.markdown
+  - books.markdown
   - about.markdown
 
 # Exclude from processing.
