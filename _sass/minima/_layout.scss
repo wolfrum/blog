@@ -119,7 +119,10 @@
 .contact-list,
 .social-media-list {
   list-style: none;
-  margin-left: 0;
+}
+
+.username {
+  vertical-align: text-top;
 }
 
 .footer-col-wrapper {
@@ -211,28 +214,49 @@
 /**
 Main Page Hero
 **/
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column-left {
+  float: left;
+  width: 40%;
+  padding: 10px;
+}
+.column-right {
+  float: right;
+  width: 60%;
+  padding: 10px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .column {
+    width: 100%;
+  }
+  .column-left {
+    width: 100%;
+  }
+  .column-right {
+    width: 100%;
+  }
+}
 .main-hero-col-wrapper {
   @include relative-font-size(0.9375);
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
 
-.main-hero-col {
-  float: left;
-  margin-bottom: $spacing-unit / 2;
-  /* padding-left: $spacing-unit / 2; */
-}
-
-.main-hero-col-1 {
-  width: -webkit-calc(30% - (#{$spacing-unit} / 2));
-  width:         calc(30% - (#{$spacing-unit} / 2));
-}
-
-.main-hero-col-2 {
-  width: -webkit-calc(65% - (#{$spacing-unit} / 2));
-  width:         calc(65% - (#{$spacing-unit} / 2));
-  margin-left: 5%;
-}
 
 /**
  * Posts
