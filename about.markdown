@@ -8,4 +8,4 @@ J. Allen Wolfrum is a fiction author and former Marine. During Operation Iraqi F
 
 After the Marine Corps he wandered down several paths: press operator in a plastics factory, warehouse stocker, confused college student, Certified Public Accountant, confused graduate student, management consultant, data scientist, writer and aspiring guitar player.
 
-J. Allen Wolfrum lives in San Diego, California, where he writes Western genre fiction, and poetry from time to time.
+J. Allen Wolfrum lives in San Diego, California, where he writes Western genre fiction and poetry from time to time.
