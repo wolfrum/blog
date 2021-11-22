@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Back at it"
-date:   2021-08-11 14:10:16 -0800
+date:   2021-11-22 00:09:16 -0800
 slug: back-at-it-again
 image: WideGlide_Library.jpg
-categories: typewriters poetry
+categories: random
 ---
 ## Fresh Start .... Again
  
