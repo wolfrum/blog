@@ -122,6 +122,14 @@ a:hover { text-decoration: underline; }
 .book__cover { flex: 0 0 200px; max-width: 200px; }
 .book__cover img { box-shadow: 0 2px 12px rgba(0,0,0,0.12); }
 .book__body { flex: 1 1 320px; }
+.book__body h2 { margin-top: 0; margin-bottom: 4px; }
+.book__genre {
+  margin-bottom: 16px;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
 
 /* 404 */
 .notfound { text-align: center; padding: 80px 0; }
